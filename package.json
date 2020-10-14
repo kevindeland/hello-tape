@@ -1,0 +1,17 @@
+{
+  "name": "hello-tape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/tape": "4.13.0",
+    "tape": "5.0.1",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.3"
+  }
+}
